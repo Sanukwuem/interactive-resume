@@ -1,0 +1,89 @@
+#header {
+	text-align: center;
+	font-family: Courier;
+	color: #800000;
+}
+
+#left {
+
+}
+
+#right {
+	float: right;
+}
+
+#tab {
+	margin-left:5em;
+}
+
+#link {
+	text-decoration: none;
+	color: #800000;
+}
+
+ #link:visited {
+	color: #800000;
+ }
+
+ #link:hover {
+	color: #fc8710;
+}
+
+#link2 {
+	text-decoration: none;
+	color: #800000;
+}
+
+#link2:visited {
+	color: #800000;
+}
+
+#link2:hover {
+	color: #fc8710;
+}
+
+#subject {
+	height: 40px;
+	width: 99.5%;
+	border: 5px double #2f5997;
+	border-radius: 5px;
+	background-color: #e7f9f0;
+	text-align: center;
+}
+
+#apps {
+	height: 20px;
+	width: 12%;
+	border: 3px solid #2f5997;
+	border-radius: 5px;
+	background-color: #ffffff;
+	text-align: center;
+
+}
+
+
+
+#section {
+	margin-top: 10px;
+}
+
+#highlight:hover {
+  color: #3667b0;
+}
+
+#subject:hover {
+	color: black;
+	background-color: #fc8710;
+}
+
+#jobs {
+	height: 55px;
+	width: 99.5%;
+	border: 3px solid #2f5997;
+	border-radius: 5px;
+	background-color: #ffffff;
+}
+
+#profDesc1 {
+	margin-bottom: 10px;
+}

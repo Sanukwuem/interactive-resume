@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title> Sean's Resume </title>
+        <link rel='stylesheet' type='text/css' href='stylesheet.css'/> <!-- uses css -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script> <!-- uses jquery -->
+        <script>
+        $(document).ready(function(){
+          $(".description1").hide();
+          $(".apps1").hover(function(){
+            $(".description1").show();
+            $(".apps1").css('border', '3px solid #ffffff')
+          });
+
+          $(".description2").hide();
+          $(".apps2").hover(function(){
+            $(".description2").show();
+              $(".apps2").css('border', '3px solid #ffffff')
+          });
+
+          $(".description3").hide();
+          $(".apps3").hover(function(){
+            $(".description3").show();
+              $(".apps3").css('border', '3px solid #ffffff')
+          });
+
+          $(".profDesc1").hide();
+          $(".jobs1").hover(function(){
+            $(".profDesc1").show();
+              $(".jobs1").css('border', '3px solid #ffffff')
+          });
+
+          $(".profDesc2").hide();
+          $(".jobs2").hover(function(){
+            $(".profDesc2").show();
+              $(".jobs2").css('border', '3px solid #ffffff')
+          });
+        });
+        </script>
+	</head>
+
+	<!-- Whole document, colors subject to change -->
+	<body>
+		<h1 id="header"> Sean Anukwuem </h1>
+		<div id="lrheader"> <!-- left and right header, seperated with span to float right header to the right side -->
+			<p>
+				<span id="left"> 7 Newman Place </span> <span id="right"> anukwus1@tcnj.edu </span>
+		   <br> <span id="left"> East Hanover, NJ 07936 </span> <span id="right">(973)224-5864 </span>
+		   <br> <span id="left"> <a id="link" href="http://seananukwuem.com/">seananukwuem.com</a> </span> <span id="right"> <a id="link" href="https://github.com/sanukwuem">github.com/sanukwuem </a> </span>
+		  </p>
+		</div>
+		<!-- objectives section of the document -->
+    <div id="highlight">
+		    <div id="subject">
+			       <p id="section"> OBJECTIVES </p>
+		    </div>
+			       <p id="objDesc"> Seeking an internship to expand knowledge in software or web development utilizing programming, collaboration, and problem solving skills. </p>
+    </div>
+
+		<!-- education section -->
+    <div id="highlight">
+		<div id="subject">
+			<p id="section"> EDUCATION </p>
+		</div>
+			<p id="edDesc"> The College of New Jersey (TCNJ), Ewing, NJ
+					   <br> Bachelor of Science in Computer Science <span id="right"> June 2017 </span> </p>
+    </div>
+
+		<!-- technical skills section -->
+    <div id="highlight">
+		<div id="subject">
+			<p id="section"> TECHNICAL SKILLS </p>
+		</div>
+			<p id="techDesc"> <strong> Languages: </strong> Java, C, C++, Ruby, HTML, CSS, JavaScript, JQuery, PHP, SQL
+						 <br> <strong> Operating Systems: </strong> Windows, Mac OS, Linux, UNIX
+						 <br> <strong> Applications: </strong> Microsoft Office, Android Studio, Microsoft Visual Studio, Ruby on Rails, Eclipse
+			</p>
+    </div>
+		<!-- projects section -->
+    <div id="highlight">
+		<div id="subject">
+			<p id="section"> PROJECTS </p>
+		</div>
+			<p id="projDesc"> <span id="apps" class="apps1"><a class="link1" id="link2" href="https://github.com/Sanukwuem/NotesApp"><strong> Notes App </strong></a></span><span class="description1">- Created web applications for taking notes using a combination of Ruby, HTML, and CSS on Rails.</span>
+
+						      <br><br> <span id="apps" class="apps2"><a class="link2" id="link2" href="https://github.com/Sanukwuem/MusicSensor"><strong> Music Sensor </strong></a></span><span class="description2">- Developing an android application that plays musical notes depending on the position of one's phone.</span>
+
+						      <br><br> <span id="apps" class="apps3"><a class="link3" id="link2" href="http://seananukwuem.com/"><strong> My Website </strong></a></span><span class="description3">- Built website that has personal information along with my resume using HTML, CSS, and PHP </span>
+
+		</p>
+    </div>
+
+    <!-- courses taken -->
+    <div id="highlight">
+    <div id="subject">
+			<p id="section"> COURSES TAKEN </p>
+		</div>
+			<p id="courseDesc">
+                  Comp Sci I: Computer Problem Solving <span id ="right"> Advanced Browser Technologies </span>
+					   <br> Analysis of Algorithms               <span id="right">  Comp Sci II: Data Structures  </span>
+             <br> Software Engineering                 <span id="right">  Computer Architecture </span>
+             <br> Discrete Structures                  <span id="right">  Operating Systems </span>
+      </p>
+      </div>
+      <!-- professional experience -->
+      <div id="highlight">
+      <div id="subject">
+        <p id="section"> PROFESSIONAL EXPERIENCE </p>
+      </div>
+            <br><div id="jobs" class="jobs1"> <p id="profDesc" class="profDesc1"> <p id= "profDesc1"> LCT Medical, Irvington, NJ
+                        <br>  Administrative Assistant <span id="right"> Summer 2015 </span></p> </div>
+                        <span class="profDesc1">  <span id="tab"> &#8226 Scheduled meetings, interviews and events. </span>
+                        <br>  <span id="tab"> &#8226 Created and maintained social media pages to promote services and increase patient interaction. </span>
+                        <br>  <span id="tab"> &#8226 Answered general questions for patients. </span>
+                        <br>  <span id="tab"> &#8226 Reviewed patient online system to verify correct charges implement. </span> </span>
+           </p>
+           <div id="jobs" class="jobs2"> <p id="profDesc" class="profDesc2"> <p id= "profDesc1"> Abercrombie & Fitch, Short Hills Mall, NJ
+                       <br>  Impact <span id="right"> Summer 2014 </span> </p> </div>
+                       <span class="profDesc2"> <span id="tab"> &#8226 Maintained merchandise flow, filling, and presentation standards throughout the store and stockroom. </span>
+                       <br>  <span id="tab"> &#8226 Interacted with customers on a daily basis and assisted with different needs. </span>
+                       <br>  <span id="tab"> &#8226 Remodeled store along with four co-workers according to specifications provided. </span> </span>
+          </p>
+        </div>
+
+          <!-- activities -->
+          <div id="highlight">
+          <div id="subject">
+      			<p id="section"> ACTIVITIES </p>
+      		</div>
+      			<p id="actDesc">
+                        Member, Association for Computing Machinery                                   <span id ="right"> February 2016 - Present </span>
+      					   <br> Participant, HackTCNJ                                                         <span id="right">  Winter 2016  </span>
+                   <br> Invited, Student Presenter on NIME Interface Models, The New School, NYC      <span id="right">  May 2016 </span>
+                   <br> Player, Varsity Basketball, TCNJ                                              <span id="right">  Fall 2013 - June 2015 </span>
+            </p>
+          </div>
+	</body>
+</html>
